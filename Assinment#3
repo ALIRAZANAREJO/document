@@ -1,0 +1,56 @@
+// 1. Add "grape" to the end of the array "fruits"
+var fruits = ["apple", "banana", "orange"];
+fruits.push("grape");
+
+// 2. Remove the last element from the array "numbers"
+var numbers = [1, 2, 3, 4, 5];
+numbers.pop();
+
+// 3. Add "yellow" to the beginning of the array "colors"
+var colors = ["red", "green", "blue"];
+colors.unshift("yellow");
+
+// 4. Remove the first element from the array "days"
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday"];
+days.shift();
+
+// 5. Create an array "names" and add three names
+var names = [];
+names.push("Alice", "Bob", "Charlie");
+
+// 6. Calculate the sum of all numbers in the array "numbers"
+var numbers = [10, 20, 30, 40, 50];
+var sum = 0;
+for (var i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+
+// 7. Populate the array "evenNumbers" with even numbers from 2 to 20
+var evenNumbers = [];
+for (var i = 2; i <= 20; i += 2) {
+    evenNumbers.push(i);
+}
+
+// 8. Print each fruit from the array "fruits" on a separate line
+var fruits = ["apple", "banana", "orange", "kiwi"];
+for (var i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+// 9. Calculate the total of all numbers in the array "numbers"
+var numbers = [5, 10, 15, 20, 25];
+var total = 0;
+for (var i = 0; i < numbers.length; i++) {
+    total += numbers[i];
+}
+
+// 10. Find and print the index of "elephant" in the array "animals"
+var animals = ["cat", "dog", "elephant", "giraffe"];
+var indexOfElephant = animals.indexOf("elephant");
+console.log("Index of 'elephant': " + indexOfElephant);
+
+// 11. Populate the array "oddNumbers" with odd numbers from 1 to 15
+var oddNumbers = [];
+for (var i = 1; i <= 15; i += 2) {
+    oddNumbers.push(i);
+}
