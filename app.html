@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="search()">Search</button>
+    </div>
+
+    <div id="searchResults">
+        <!-- Results will be displayed here -->
+    </div>
+
+    <div class="image-container">
+        <a href="#" onmouseover="showMessage(true)" onmouseout="showMessage(false)" onclick="showDetail(true)">
+            <img src="B.jpg" alt="Nature Image 1">
+        </a>
+        <a href="#" onmouseover="showMessage(true)" onmouseout="showMessage(false)" onclick="showDetail(true)">
+            <img src="T.jpg" alt="Nature Image 2">
+        </a>
+        <a href="#" onmouseover="showMessage(true)" onmouseout="showMessage(false)" onclick="showDetail(true)">
+            <img src="AR.jpeg" alt="Nature Image 3">
+        </a>
+        <a href="#" onmouseover="showMessage(true)" onmouseout="showMessage(false)" onclick="showDetail(true)">
+            <img src="Kaghan Valley.jpg" alt="Nature Image 4">
+        </a>
+        <a href="#" onmouseover="showMessage(true)" onmouseout="showMessage(false)" onclick="showDetail(true)">
+            <img src="pm.jpg" alt="Nature Image 5">
+        </a>
+        <a href="#" onmouseover="showMessage(true)" onmouseout="showMessage(false)" onclick="showDetail(true)">
+            <img src="wp7340753-karachi-wallpapers.jpg" alt="Nature Image 6">
+        </a>
+    </div>
+
+
+    <button onclick="likeCard()">Submit</button>
+    <script src="app.js"></script>
+</body>
+</html>
